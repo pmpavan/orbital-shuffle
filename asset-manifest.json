@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/orbital-shuffle/static/css/main.4dd44e2c.chunk.css",
+    "main.js": "/orbital-shuffle/static/js/main.7ec4d65f.chunk.js",
+    "main.js.map": "/orbital-shuffle/static/js/main.7ec4d65f.chunk.js.map",
+    "runtime-main.js": "/orbital-shuffle/static/js/runtime-main.1a401d24.js",
+    "runtime-main.js.map": "/orbital-shuffle/static/js/runtime-main.1a401d24.js.map",
+    "static/js/2.02a9664d.chunk.js": "/orbital-shuffle/static/js/2.02a9664d.chunk.js",
+    "static/js/2.02a9664d.chunk.js.map": "/orbital-shuffle/static/js/2.02a9664d.chunk.js.map",
+    "static/js/3.038e7856.chunk.js": "/orbital-shuffle/static/js/3.038e7856.chunk.js",
+    "static/js/3.038e7856.chunk.js.map": "/orbital-shuffle/static/js/3.038e7856.chunk.js.map",
+    "index.html": "/orbital-shuffle/index.html",
+    "precache-manifest.8c652c5a28e5f4ee944ce3e58336ce34.js": "/orbital-shuffle/precache-manifest.8c652c5a28e5f4ee944ce3e58336ce34.js",
+    "service-worker.js": "/orbital-shuffle/service-worker.js",
+    "static/css/main.4dd44e2c.chunk.css.map": "/orbital-shuffle/static/css/main.4dd44e2c.chunk.css.map",
+    "static/js/2.02a9664d.chunk.js.LICENSE.txt": "/orbital-shuffle/static/js/2.02a9664d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a401d24.js",
+    "static/js/2.02a9664d.chunk.js",
+    "static/css/main.4dd44e2c.chunk.css",
+    "static/js/main.7ec4d65f.chunk.js"
+  ]
+}
