@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Orbital Shuffle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Orbital Shuffle is a fun and engaging puzzle game designed for kids. The objective is to align a specified number of adjacent matching planets to win the game. 
 
-## Available Scripts
+## Play the Game
 
-In the project directory, you can run:
+You can play the game online [here](https://pmpavan.github.io/orbital-shuffle/).
 
-### `npm start`
+## How to Play
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Start the Game:**
+   - Click on the "Start Game" button on the entry page.
+   - Choose the grid size, win count, and difficulty level (easy, medium, hard).
+   - Click "Start Game" to begin.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Game Objective:**
+   - The goal is to align the specified number of adjacent matching planets either horizontally, vertically, or diagonally.
 
-### `npm test`
+3. **Swap Planets:**
+   - Click on two adjacent planets to swap them. Only adjacent planets can be swapped.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Win the Game:**
+   - If you align the specified number of adjacent matching planets, you win the game and a win dialog will appear.
 
-### `npm run build`
+5. **Game Over:**
+   - If you exceed the maximum allowed steps without winning, the game will be over and a failure dialog will appear.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run the game locally, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/pmpavan/orbital-shuffle.git
+   cd orbital-shuffle
+   ```
 
-### `npm run eject`
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Run the Game:**
+   ```bash
+   npm start
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Build and Deploy:**
+   ```bash
+   npm run build
+   npm run deploy
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- `src`: Contains the source code for the game.
+  - `App.js`: Main component that manages the game state.
+  - `EntryPage.js`: Entry page component where users can select game settings.
+  - `PlanetGrid.js`: Component that displays the game grid.
+  - `PlanetView.js`: Component that displays each planet.
+  - `WinDialog.js`: Component that displays the win dialog.
+  - `FailureDialog.js`: Component that displays the failure dialog.
+- `public`: Contains static files such as images and the `index.html` file.
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React: A JavaScript library for building user interfaces.
+- GitHub Pages: A static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Credits
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This game was developed by Pavan. If you have any questions or suggestions, feel free to reach out.
