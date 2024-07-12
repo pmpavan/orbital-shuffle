@@ -1,0 +1,67 @@
+.entry-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ffcc33, #ff66cc);
+    text-align: center;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: #fff;
+  }
+  
+  .entry-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px #333;
+  }
+  
+  .entry-page p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .entry-page label {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .entry-page input, .entry-page select {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .entry-page button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #33ccff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px #0099cc;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .entry-page button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .entry-page button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #0099cc;
+  }
+  
+  .error-message {
+    color: #ff3333;
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  

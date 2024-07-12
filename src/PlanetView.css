@@ -1,0 +1,19 @@
+.planet {
+  width: 100%; /* Full width and height to fit the grid cell */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.planet.selected {
+  border: 3px solid #ff3333;
+  border-radius: 10px;
+}
+
+.planet img {
+  width: 80%; /* Adjust size to fit within the grid cell */
+  height: 80%;
+  object-fit: cover;
+}

@@ -1,0 +1,53 @@
+.dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog {
+    background: #ff3333;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    color: #fff;
+  }
+  
+  .dialog h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .dialog p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .dialog button {
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #fff;
+    background: #3333ff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px #000099;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .dialog button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .dialog button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px #000099;
+  }
+  

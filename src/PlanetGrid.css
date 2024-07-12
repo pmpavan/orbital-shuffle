@@ -1,0 +1,39 @@
+:root {
+  --grid-size: 4; /* Default grid size, will be updated dynamically */
+  --cell-size: calc(100vh / var(--grid-size)); /* Calculate cell size based on viewport height */
+}
+
+.grid {
+  display: grid;
+  width: calc(var(--cell-size) * var(--grid-size)); /* Calculate grid width to maintain square cells */
+  height: 100vh;
+  grid-template-columns: repeat(var(--grid-size), 1fr);
+  grid-template-rows: repeat(var(--grid-size), 1fr);
+  margin: 0 auto; /* Center the grid horizontally */
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #33ccff, #ff66cc);
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid-item {
+  border: 2px solid #fff; /* Border for grid cells */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  box-sizing: border-box;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+.grid-item:hover {
+  transform: scale(1.05);
+}
+
+.grid-item img {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
