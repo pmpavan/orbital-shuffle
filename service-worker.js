@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/orbital-shuffle/precache-manifest.8c652c5a28e5f4ee944ce3e58336ce34.js"
+  "/orbital-shuffle/precache-manifest.c0a9fd1f76299429315e8c0e9ead34e2.js"
 );
 
 self.addEventListener('message', (event) => {
